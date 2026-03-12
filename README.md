@@ -15,15 +15,13 @@ npm run build
 
 ### Dependency: `contentstack-app-mcp`
 
-The `package.json` references the MCP server. Choose the right source for your situation:
+The `package.json` pulls the MCP server from GitHub. On `npm install`, the package's `prepare` script compiles TypeScript automatically.
 
 | Scenario | `package.json` value |
 |---|---|
+| **GitHub (default)** | `"github:abhishek305/contentstack-app-mcp"` |
 | **Local dev** (MCP repo cloned next to this project) | `"file:../contentstack-app-mcp"` |
 | **Production** (after npm publish) | `"contentstack-app-mcp"` or `"^1.0.0"` |
-| **GitHub** (if `prepare` script is pushed) | `"github:abhishek305/contentstack-app-mcp"` |
-
-Currently set to `file:../contentstack-app-mcp` for local development.
 
 ## Project Structure
 
