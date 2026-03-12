@@ -1,0 +1,24 @@
+{
+  "name": "contentstack-app-mcp-remote",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "mcp-handler": "^1.0.7",
+    "contentstack-app-mcp": "github:abhishek305/contentstack-app-mcp",
+    "@modelcontextprotocol/sdk": "1.25.2",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.0.0"
+  }
+}
